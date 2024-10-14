@@ -145,17 +145,54 @@ padding-top: 50px;
 #hobies{
     margin-left: 10%;
     padding-bottom: 50px;
+    width: 250px;
+    display: flex;
     
 }
 #hoby_image{
     border:2px white solid ;
     height: 300px;
     width: 230px;
-    border-radius: 20px;
+    border-radius: 40px;
     display: flex;
     justify-content: flex-end;
     
     margin-left: 50%;
     text-align: center;
-    padding-top: 50px;
+   margin-top: 50px;
 }
+#ho{
+    border: 3px white solid;
+    margin: 10px;
+    cursor: pointer;
+}
+#comment{
+    height: 120px;
+    width: 85%;
+    border: 2px white solid;
+    background-color: #666666;
+    
+
+}
+#send{
+    background-color: hsl(131, 96%, 49%);
+    height: 20px;
+    
+}
+#user{
+    width: 33%;
+    padding-right:10px ;
+    margin-left: 10%;
+    border: 2px green solid;
+    margin-top: 20%;
+    color: WHITE;
+    
+}
+#fName,#sName,#email{
+    display: block;
+    padding-bottom: 5px;
+    background-color: #666666;
+}
+/* #madias{
+    width: 33%;
+} */

@@ -13,8 +13,8 @@
         <a href="#index.html">HOME</a> 
         <a href="#about_me">ABOUT</a> 
         <a href="#skills_header">SKILLS</a>
-<a href="hobies.html">HOBIES</a>
-        <a href="contact">CONTACT US</a>
+<a href="#hobies">HOBIES</a>
+        <a href="#user">CONTACT US</a>
 </div></section>
 <div id="introduction"><p>I am NZARAMYIMANA </p>
     <P>Jerome a ux/ui</P>
@@ -74,20 +74,41 @@
 
 </section>
 <section id="hobies">
+    <section>
     <h2>HOBIES</h2>
-    <button type="button" onclick='document.getElementById("hoby_image").src="images/mysql.png";'>Reading Books</button>
-    <div>Coding</div>
-    <div>Swimming</div>
-    <div>listening Musics</div>
-    <div>Marathon</div>
-    <div>Watching for movies</div>
-    <div id="hoby_image"><img src="images/reading.avif" height="300px" width="230px"></div>
+    <div  onmouseover='document.getElementById("hob_image").src="images/reading.avif";' id="ho">Reading Books</div>
+    <div onmouseover='document.getElementById("hob_image").src="images/coding.avif";' id="ho">Coding</div>
+    <div onmouseover='document.getElementById("hob_image").src="images/swimming.avif";' id="ho">Swimming</div>
+    <div onmouseover='document.getElementById("hob_image").src="images/listening.jpg";' id="ho">listening Musics</div>
+    <div onmouseover='document.getElementById("hob_image").src="images/marathon.avif";' id="ho">Marathon</div> 
+    <div onmouseover='document.getElementById("hob_image").src="images/movies.jpg";' id="ho">Watching for movies</div>
+</section>
+
+<section> <div id="hoby_image"><img  id="hob_image" src="images/reading.avif" height="300px" width="230px"></div></section>
 </section>
 
 
 <section id="footeer">
-    <div id="CONTACT">CONTACT US </div>
+    <div id="user">
+    <div id="names">
+        <p>First Name:<input type="text" name="fName" id="fName"></p>
+            <p>Second Name:<input type="text" name="sName" id="sName"></p>
+            <p>Email:<input type="email" name="email" id="email"></p>
+
+    </div><div>
+    <p>Comment Us</p>
+    <textarea name="comment" id="comment">
+
+    </textarea>
+<button id="send">Send</button></div>
+</div>
+<section id="medias">
+    <div id="CONTACT">CONTACT </div>
     <div id="social-media">
+        <a href="tel:+250782433539">
+            <img src="images/call.png" height="40px" ></a>
+        <a href="mailto:jeromeboitenge@gmail.com">
+            <img src="images/email.webp" height="40px" ></a>
         
         <a href="https://wa.me/+250782433539" >
             <img src="images/whatsap.jpeg" height="40px"></a>
@@ -95,7 +116,9 @@
         <img src="images/github.png" height="40px"></a>
     <a href="https://www.linkedin.com/in/jerome-boitenge-30b09a280/">
         <img src="images/linked.png" height="40px" ></a>
-    </div></section></div>
+        
+            
+    </div></section></section></div>
     
 </body>
 </html>
