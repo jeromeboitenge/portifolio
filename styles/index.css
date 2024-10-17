@@ -1,3 +1,12 @@
+
+*{
+    
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Roboto ;
+}
+
+
 #logo{
     height: 180px;
     
@@ -7,10 +16,11 @@
    text-align: center;
    /* padding-top: 60px; */
    margin-left: 50px;
-   
-  
- 
- 
+   /* color: white; */
+}
+#navigation a{
+    text-decoration: none;
+    color: white ;
 }
 #header{
     /* display: inline-flex; */
@@ -20,6 +30,7 @@
     border: 0px solid;
     background-color: rgb(19, 19, 19);
     display: -ms-inline-flexbox;
+    
 }
 #profile{ 
     height: 200px;
@@ -65,24 +76,19 @@
 #skills{
     
 
-    display: inline-flex;
+    display: flex;
     padding-left: 10%;
     /* border: 2px solid green; */
     /* background-color: rgb(107, 139, 107); */
+    /* height: 315px; */
+    /* width: 90%; */
+    overflow:visible;
     
-    
+    flex-wrap: wrap;
     
 }
 
-#HTMLs,#csss{
-    border: 2px solid;
-    width: 100px;
-    margin-left: 30px;
-    
-    
-    
 
-}
 #skills_header{
     
     padding-left: 10%;
@@ -90,20 +96,21 @@
 }
 #footeer{
 
-    background-color: rgb(19, 19, 19);
+    background-color: aliceblue;
  
 
 }
 #social-media{
     
    
-    background-color: white;
+    /* background-color: white; */
     border-radius: 20px;
     display: flex;
     justify-content: flex-end;
     gap: 10px;
-    margin-left: 90%;
+    /* margin-left: 80%; */
     text-align: center;
+    margin-right: 10%;
     
 
 
@@ -112,7 +119,7 @@
 #CONTACT{
     background-color: white;
     justify-content: flex-end;
-    margin-left: 90%;
+    margin-left: 80%;
     display: block;
     
 }
@@ -122,11 +129,14 @@
     margin-right: 20px;
 border-radius: 15px;
 background-color: aliceblue;
-width: 110px;
+width: 18%;
 text-align: center;
 padding-top: 50px;
 
 
+}
+#htm img,#css img,#JavaScript img,#nodejs img,#mysql img{
+    width:95%
 }
 #main_body{
     background-color: #666666;
@@ -138,21 +148,23 @@ padding-top: 50px;
    
     background-color: #666666;
     padding-top: 50px;
-    width: 500px;
+    width: 70%;
     margin-left: 10%;
     padding-bottom: 50px;
 }
 #hobies{
+    
     margin-left: 10%;
     padding-bottom: 50px;
-    width: 250px;
+    width: 90%;
     display: flex;
+    padding-top: 100px;
     
 }
 #hoby_image{
     border:2px white solid ;
     height: 300px;
-    width: 230px;
+    width: 50%;
     border-radius: 40px;
     display: flex;
     justify-content: flex-end;
@@ -168,7 +180,7 @@ padding-top: 50px;
 }
 #comment{
     height: 120px;
-    width: 85%;
+    width: 70%;
     border: 2px white solid;
     background-color: #666666;
     
@@ -180,19 +192,22 @@ padding-top: 50px;
     
 }
 #user{
-    width: 33%;
+    width: 20%;
     padding-right:10px ;
     margin-left: 10%;
-    border: 2px green solid;
-    margin-top: 20%;
-    color: WHITE;
+    border: 2px black solid;
+    margin-top: 100px;
+    
     
 }
 #fName,#sName,#email{
     display: block;
     padding-bottom: 5px;
     background-color: #666666;
+    width: 70%;
 }
-/* #madias{
-    width: 33%;
-} */
+#navigation{
+    color: green;
+    font-style: italic;
+    text-decoration: none;
+}
